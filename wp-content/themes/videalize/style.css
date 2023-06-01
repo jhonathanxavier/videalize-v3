@@ -150,6 +150,7 @@ Version: 1.0
  body{
      font-family: 'futura-book';
      background-color: transparent;
+     padding-top: 64px;
  }
  
  body.claro{
@@ -163,7 +164,7 @@ Version: 1.0
      left: 0;
      width: 100%;
      height: 64px;
-     background-color: #fff;
+     background-color: #ffffff;
      z-index: 20;
  }
  
@@ -253,6 +254,7 @@ Version: 1.0
  
  header .menu li.item-mp .submenu{
      display: block;
+     visibility: hidden;
      position: absolute;
      top: 100%;
      left: -10px;
@@ -273,6 +275,7 @@ Version: 1.0
  header .menu li.item-mp:hover .submenu{
      height: 150px;
      background-color: rgba(0,0,0, 0.7);
+     visibility: visible;
      
  }
  
@@ -487,7 +490,7 @@ Version: 1.0
      display: inline-block;
      width: 26px;
      height: 26px;
-     background: url('img/icon-instagram.svg') no-repeat center;
+     background: url('img/ig_branco1.svg') no-repeat center;
      opacity: 1;
      transition: opacity 0.3s ease-in-out;
  }
@@ -781,7 +784,7 @@ Version: 1.0
      display: inline-block;
      width: 26px;
      height: 26px;
-     background: url('img/icon-instagram.svg') no-repeat center;
+     background: url('img/ig_branco1.svg') no-repeat center;
      opacity: 1;
      transition: opacity 0.3s ease-in-out;
  }
@@ -1524,7 +1527,9 @@ Version: 1.0
  
  
  @media screen and (max-width: 1180px){
- 
+    body{
+        padding-top: 80px;
+    }
  
      header{
          height: 80px;
@@ -1653,61 +1658,7 @@ Version: 1.0
  
  
  
-     header .contato.aberto{
-        height: 290px;
-    }
-    header .contato .ct-contato{
-        width: 100%;
-        height: 100%;
-        padding-top: 70px;
-        background-color: rgba(0,0,0, 0.95);
-        text-align: right;
-        vertical-align: top;
-    }
     
-    header .contato .ct-contato .contato-texto{
-        display: inline-block;
-        width: auto;
-        height: 78px;  
-        color: #f7f3eb;
-        font-size: 10px;
-        line-height: 78px;  
-        vertical-align: top;
-    }
-    
-    header .contato .ct-contato .contato-texto a{
-        color: #f7f3eb;
-        font-size: 16px;
-        line-height: 78px;  
-    }
-    
-    header .contato .ct-contato .contato-texto a:hover{
-        text-decoration: underline;
-    }
-    
-    header .contato .ct-contato .social{
-        display: inline-block;
-        padding-right: 80px;
-        padding-left: 10px;
-        height: 78px;
-        vertical-align: top;
-        padding-top: 185px;
-    }
- 
-     header .contato .ct-contato .social .lk-facebook{
-         width: 20px;
-         height: 20px;
-         background: url('img/icon-facebook.svg') no-repeat center;
-         background-size: 20px auto;
-         margin-right: 8px;
-     }
- 
-     header .contato .ct-contato .social .lk-instagram{
-         width: 20px;
-         height: 20px;
-         background: url('img/icon-instagram.svg') no-repeat center;
-         background-size: 20px auto;
-     }
  
  
      #menu-recolhido{
@@ -1861,7 +1812,7 @@ Version: 1.0
      #menu-recolhido .contato .ct-contato .social .lk-instagram{
          width: 20px;
          height: 20px;
-         background: url('img/icon-instagram.svg') no-repeat center;
+         background: url('img/ig_branco1.svg') no-repeat center;
         background-size: 20px auto;
      }
  
@@ -2272,62 +2223,7 @@ Version: 1.0
  
  
  
-     header .contato.aberto{
-        height: 290px;
-    }
-    header .contato .ct-contato{
-        width: 100%;
-        height: 100%;
-        padding-top: 70px;
-        background-color: rgba(0,0,0, 0.95);
-        text-align: right;
-        vertical-align: top;
-    }
     
-    header .contato .ct-contato .contato-texto{
-        display: inline-block;
-        width: auto;
-        height: 78px;  
-        color: #f7f3eb;
-        font-size: 10px;
-        line-height: 78px;  
-        vertical-align: top;
-    }
-    
-    header .contato .ct-contato .contato-texto a{
-        color: #f7f3eb;
-        font-size: 16px;
-        line-height: 78px;  
-    }
-    
-    header .contato .ct-contato .contato-texto a:hover{
-        text-decoration: underline;
-    }
-    
-    header .contato .ct-contato .social{
-        display: inline-block;
-        padding-right: 80px;
-        padding-left: 10px;
-        height: 78px;
-        vertical-align: top;
-        padding-top: 185px;
-    }
- 
-     header .contato .ct-contato .social .lk-facebook{
-         width: 20px;
-         height: 20px;
-         background: url('img/icon-facebook.svg') no-repeat center;
-         background-size: 20px auto;
-         margin-right: 8px;
-     }
- 
-     header .contato .ct-contato .social .lk-instagram{
-         width: 20px;
-         height: 20px;
-         background: url('img/icon-instagram.svg') no-repeat center;
-         background-size: 20px auto;
-     }
- 
  
      #menu-recolhido{
          height: 51px;
@@ -2480,7 +2376,7 @@ Version: 1.0
      #menu-recolhido .contato .ct-contato .social .lk-instagram{
          width: 20px;
          height: 20px;
-         background: url('img/icon-instagram.svg') no-repeat center;
+         background: url('img/ig_branco1.svg') no-repeat center;
         background-size: 20px auto;
      }
  
@@ -2808,7 +2704,9 @@ Version: 1.0
  
  @media screen and (max-width: 740px){
  
- 
+     body{
+        padding-top: 0px;
+     }
      header{
          position: fixed;
          top: 0;
@@ -2964,6 +2862,7 @@ Version: 1.0
         background-color: rgba(0,0,0, 0.95);
         text-align: left;
         vertical-align: top;
+        display: flex;
     }
     
     header .contato .ct-contato .contato-texto{
@@ -2992,7 +2891,7 @@ Version: 1.0
         padding-left: 1px;
         height: 78px;
         vertical-align: top;
-        padding-top: 3px;
+        padding-top: 29px;
     }
  
      header .contato .ct-contato .social .lk-facebook{
@@ -3006,7 +2905,7 @@ Version: 1.0
      header .contato .ct-contato .social .lk-instagram{
          width: 20px;
          height: 20px;
-         background: url('img/icon-instagram.svg') no-repeat center;
+         background: url('img/ig_branco1.svg') no-repeat center;
          background-size: 20px auto;
      }
  
@@ -3350,7 +3249,7 @@ Version: 1.0
          display: inline-block;
          width: 26px;
          height: 26px;
-         background: url('img/icon-instagram.svg') no-repeat center;
+         background: url('img/ig_branco1.svg') no-repeat center;
          opacity: 1;
          transition: opacity 0.3s ease-in-out;
      }
