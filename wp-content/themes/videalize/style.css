@@ -3957,7 +3957,38 @@ Version: 1.0
  
  
  
- 
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: #f8f9fa;
+}
+
+.footer-item {
+text-align: center;
+flex-grow: 1;
+}
+
+.footer-item i {
+font-size: 24px;
+color: #000;
+}
+
+.link-menu {
+text-align: right;
+margin-left: auto;
+padding-right: 25%;
+}
+
+@media only screen and (max-width: 769px){
+.footer-item{
+    text-align: left;
+}
+.link-menu{
+    padding-right: 0%;
+}
+}
  
  
  
